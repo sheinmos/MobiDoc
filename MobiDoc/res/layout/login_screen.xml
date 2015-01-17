@@ -47,8 +47,9 @@
        android:id="@+id/usernamelabel"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_alignLeft="@+id/imageView1"
-       android:layout_below="@+id/imageView1"
+       android:layout_alignBaseline="@+id/usernametxt"
+       android:layout_alignBottom="@+id/usernametxt"
+       
        android:text="User name : "
        android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -67,8 +68,17 @@
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_below="@+id/passtext"
-       android:layout_marginTop="37dp"
-       android:layout_toRightOf="@+id/passlabel"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="18dp"
        android:text="Login" />
+
+   <TextView
+       android:id="@+id/errorlable"
+       android:layout_width="140dp"
+       android:layout_height="90dp"
+       android:layout_alignLeft="@+id/passlabel"
+       android:layout_alignRight="@+id/passtext"
+       android:layout_below="@+id/loginButton"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.mobiDoc.mobidoc;
+package com.example.mobidoc;
 
 import java.util.concurrent.BlockingQueue;
 

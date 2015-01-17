@@ -32,8 +32,9 @@ public final class R {
         public static final int stethoscope_icon=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f080009;
+        public static final int action_settings=0x7f08000a;
         public static final int button1=0x7f080001;
+        public static final int errorlable=0x7f080009;
         public static final int imageView1=0x7f080000;
         public static final int loginButton=0x7f080008;
         public static final int passlabel=0x7f080007;

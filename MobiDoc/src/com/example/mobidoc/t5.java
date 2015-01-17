@@ -1,4 +1,4 @@
-package com.mobiDoc.mobidoc;
+package com.example.mobidoc;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
 import java.util.concurrent.BlockingQueue;

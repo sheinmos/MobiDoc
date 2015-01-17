@@ -3,6 +3,8 @@ package com.example.mobidoc;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
 import android.view.Menu;
@@ -11,6 +13,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginScreen extends Activity {
@@ -52,8 +55,10 @@ public class LoginScreen extends Activity {
 				{
 					username.setText("");
 					pass.setText("");
+					TextView error=(TextView)findViewById(R.id.errorlable);
+					error.setText("you typed wrong login deatails.\n please type again." );
+					error.setTextColor(Color.RED);
 					
-					Toast.makeText(getApplicationContext(), "Login information are wrong. please type again", 1);
 					
 				}
 			}
